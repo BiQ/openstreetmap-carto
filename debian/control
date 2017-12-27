@@ -1,0 +1,11 @@
+Source: openstreetmap-carto
+Section: main
+Priority: extra
+Maintainer: Kim Gert Nielsen
+Build-Depends: debhelper (>= 9.0.0), npm, nodejs-legacy, git, dh-systemd (>=1.5) | bash
+Standards-Version: 3.9.2
+
+Package: openstreetmap-carto
+Architecture: amd64
+Depends: ${dist:Depends}
+Description: openstreetmap-carto
